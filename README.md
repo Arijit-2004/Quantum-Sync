@@ -77,9 +77,9 @@ fraud-detection-website/
 ## Contributors
 
 - Arijit Chatterjee (https://github.com/Arijit-2004)
-- Sagnik Basak(https://github.com/contributor2)
-- Anidipta Pal(https://github.com/contributor3)
-- Ayan Dasgupta(https://github.com/contributor4)
+- Sagnik Basak (https://github.com/SagnikBasak04)
+- Anidipta Pal(https://github.com/Anidipta)
+- Ayan Dasgupta(https://github.com/AD9190)
 
 ## Acknowledgments
 
