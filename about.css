@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Martel+Sans:wght@600&family=Poppins:wght@200;400;700&family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'sans-serif';
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  min-width: 60svh;
+  background: url("Download\ free\ vector\ of\ Black\ modern\ background\ design\ vector\ by\ Adjima\ about\ stripe\ vector\,\ arrow\ 3d\,\ frame\ background\ 3d\ product\ backdrop\,\ 3d\,\ and\ abstract\ 580761.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.logo-container .logo-img {
+  border: none;
+  border-radius: 50%;
+  padding: 3px;
+  height: 90px;
+  width: 90px;
+  margin-right: 6px;
+  margin-top: 1px;
+}
+
+.logo-container .logo {
+  font-size: 3em;
+  color: whitesmoke;
+  user-select: none;
+  margin-top: 14px;
+  font-family: 'Rowdies', sans-serif;
+}
+
+.navigation a {
+  position: relative;
+  color: whitesmoke;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-left: 50px;
+  text-decoration: none;
+  margin-bottom: 14px;
+}
+
+.navigation a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: whitesmoke;
+  border-radius: 5px;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+
+.navigation a:hover::after {
+  transform-origin: right;
+  transform: scaleX(1);
+}
+
+.separation {
+  height: 2px;
+  background-color: #d8d4d4;
+  position: relative;
+  z-index: 40;
+  width: 100%;
+  transform: translateY(-210px); /* Adjust the translateY value as needed */
+  opacity: 0.8;
+} 
+
+.welcomeHead {
+  color: whitesmoke;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-120px); /* Adjust the translateY value as needed */
+  text-align: center;
+  justify-content: center;
+  z-index: 10;
+  margin-bottom: 20px; /* Add margin-bottom to increase space below the heading */
+}
+
+.welcomeHead span {
+  font-family: "Rowdies", sans-serif;
+  font-size: 3.2rem;
+  margin-bottom: 30px;
+}
+
+.aboutUs {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  transform: translateY(100px); /* Adjust the translateY value as needed */
+}
+
+.aboutUs .cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vh;
+  max-height: 50vh;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  background: rgba(37, 41, 88, 0.5);
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 30px;
+}
+
+.aboutUs .cards h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.aboutUs .cards img {
+  height: 30vh;
+  width: 30vh;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.aboutUs .cards span {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  overflow: hiddden;
+}
+
+.aboutUs .cards a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 10px; /* Add a margin for spacing */
+}
+
+.aboutUs .cards a i {
+  font-size: 1.4rem;
+  color: whitesmoke;
+  margin-right: 5px; /* Add margin to separate the icons */
+}
+
+.aboutUs .cards a:hover i.fa-github {
+  color: #6cc644; /* Change GitHub icon color on hover */
+}
